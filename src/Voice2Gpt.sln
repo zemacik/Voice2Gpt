@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voice2Gpt.App.Cli", "Voice2Gpt.App.Cli\Voice2Gpt.App.Cli.csproj", "{DBF5A609-8B9B-46E3-BE77-A669861C33ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{06A6A997-8886-4175-9F53-BF4ACE85B794}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		..\readme.md = ..\readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voice2Gpt.Core", "Voice2Gpt.Core\Voice2Gpt.Core.csproj", "{AA2E140E-CD2C-4BA6-803D-971C9B987AE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBF5A609-8B9B-46E3-BE77-A669861C33ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF5A609-8B9B-46E3-BE77-A669861C33ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF5A609-8B9B-46E3-BE77-A669861C33ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF5A609-8B9B-46E3-BE77-A669861C33ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2E140E-CD2C-4BA6-803D-971C9B987AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2E140E-CD2C-4BA6-803D-971C9B987AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2E140E-CD2C-4BA6-803D-971C9B987AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2E140E-CD2C-4BA6-803D-971C9B987AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {698AF832-E631-43C1-ACF8-0324B5BC95F6}
+	EndGlobalSection
+EndGlobal

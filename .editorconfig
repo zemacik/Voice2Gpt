@@ -1,0 +1,36 @@
+root = true
+
+# To learn more about .editorconfig see https://aka.ms/editorconfigdocs
+###############################
+# Core EditorConfig Options   #
+###############################
+
+# All files
+[*]
+indent_style = space
+max_line_length = 128
+
+# Code files
+[*.{cs,csx,vb,vbx}]
+indent_size = 4
+tab_width = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{cs,vb}]
+
+#### .NET Coding Conventions ####
+
+# Organize usings
+dotnet_separate_import_directive_groups = true
+dotnet_sort_system_directives_first = true
+
+# IDE0065: Misplaced using directive
+csharp_using_directive_placement = outside_namespace
+
+## License header
+file_header_template = Copyright (c) Michal Krchnavy. All rights reserved.\nLicensed under the MIT license.See LICENSE file in the project root for full license information.
+
+## Styling conventions
+
+end_of_line = crlf
